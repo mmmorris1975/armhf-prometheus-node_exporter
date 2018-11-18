@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-ver=${VERSION:="0.15.2"}
+ver=${VERSION:="0.16.0"}
 
 NAME=$(basename $(dirname $PWD/Dockerfile))
 URL="https://github.com/prometheus/node_exporter/releases/download/v${ver}/node_exporter-${ver}.linux-armv7.tar.gz"
